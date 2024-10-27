@@ -38,14 +38,47 @@ function App() {
 
 					<Container className=" bg-dark rounded pt-3 pb-2">
 						<h3 className="text-light ms-5 mt-2">Работы</h3>
-						<Carousel height={300} className="p-10">
-							<Carousel.Item className="d-flex justify-content-center">
-								<Image
-									src="./assets/todo-app.webp"
-									className="rounded"
-									height={400}
-									style={{ paddingBottom: '150px' }}
-								/>
+						<Carousel>
+							<Carousel.Item>
+								<div
+									className="d-flex justify-content-center"
+									style={{ height: '400px' }}
+								>
+									<Image
+										src="./assets/book-library-app.webp"
+										className="rounded"
+										height={400}
+										style={{ paddingBottom: '150px', textAlign: 'center' }}
+									/>
+								</div>
+								<div
+									className="position-absolute bottom-0 w-100"
+									style={{
+										height: '100%',
+										background:
+											'linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 70%)',
+									}}
+								></div>
+								<Carousel.Caption>
+									<h3>Book Library App</h3>
+									<p>
+										Приложение для библиотеки книг, позволяющее добавлять книги,
+										фильтровать их по автору и названию, и управлять избранным.
+									</p>
+								</Carousel.Caption>
+							</Carousel.Item>
+							<Carousel.Item>
+								<div
+									className="d-flex justify-content-center"
+									style={{ height: '400px' }}
+								>
+									<Image
+										src="./assets/todo-app.webp"
+										className="rounded"
+										height={400}
+										style={{ paddingBottom: '150px' }}
+									/>
+								</div>
 								<div
 									className="position-absolute bottom-0 w-100"
 									style={{
