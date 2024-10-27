@@ -31,7 +31,7 @@ function App() {
 								<span>Я разрабатываю сайты</span>
 							</Col>
 							<Col className="d-flex justify-content-center">
-								<Image src="./assets/8gn58n.jpg" className="" height={300} />
+								<Image src="./assets/8gn58n.webp" className="" height={300} />
 							</Col>
 						</Row>
 					</Container>
