@@ -39,7 +39,7 @@ function App() {
 					<Container className=" bg-dark rounded pt-3 pb-2">
 						<h3 className="text-light ms-5 mt-2">Работы</h3>
 						<Carousel>
-							<Carousel.Item>
+							<Carousel.Item style={{ borderRadius: '10px' }}>
 								<div
 									className="d-flex justify-content-center"
 									style={{ height: '400px' }}
@@ -99,6 +99,56 @@ function App() {
 					</Container>
 				</body>
 			</Container>
+			<footer
+				style={{
+					backgroundColor: '#282c34',
+					color: 'white',
+					padding: '20px 0',
+					textAlign: 'center',
+					marginTop: '10px',
+				}}
+			>
+				<Container>
+					<Row>
+						<Col>
+							<img
+								src="./assets/djumakarov2.svg"
+								alt="Logo"
+								style={{ height: '50px' }}
+							/>
+						</Col>
+						<Col>
+							<a
+								href="https://t.me/dju_makarov"
+								target="_blank"
+								rel="noopener noreferrer"
+								style={{
+									color: 'white',
+									textDecoration: 'none',
+									height: '70px',
+								}}
+							>
+								Telegram
+							</a>
+						</Col>
+						<Col>
+							<a
+								href="https://github.com/dju-makarov"
+								target="_blank"
+								rel="noopener noreferrer"
+								style={{
+									color: 'white',
+									textDecoration: 'none',
+									height: '70px',
+								}}
+							>
+								GitHub
+							</a>
+						</Col>
+					</Row>
+				</Container>
+				<p>© {new Date().getFullYear()} Все права защищены.</p>
+			</footer>
 		</>
 	)
 }
