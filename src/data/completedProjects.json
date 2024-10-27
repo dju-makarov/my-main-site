@@ -1,0 +1,21 @@
+[
+	{
+		"id": 1,
+		"title": "Todo App",
+		"description": "Простой и удобный сайт для создания, отслеживания задач, с функциями сброса и удаления завершённых дел",
+		"photo": "todo-app.webp",
+		"type": "Frontend",
+		"sourceCode": null,
+		"site": null
+	},
+	{
+		"id": 2,
+		"title": "Book Library App",
+		"description": "Приложение для библиотеки книг, позволяющее добавлять книги, фильтровать их по автору и названию, и управлять избранным.",
+		"photo": "book-library-app.webp",
+		"type": ["Frontend", "Backend"],
+		"usedTechnologies": ["react", "redux"],
+		"sourceCode": null,
+		"site": null
+	}
+]
