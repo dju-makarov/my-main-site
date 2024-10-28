@@ -3,6 +3,7 @@ import Header from './components/Header'
 import AboutWrapper from './components/AboutWrapper'
 import Footer from './components/Footer'
 import CarouselWrapper from './components/CarouselWrapper'
+// import MainWrapper from './components/MainWrapper'
 
 function App() {
 	return (
@@ -10,7 +11,9 @@ function App() {
 			<header className="mb-2 bg-dark rounded p-3">
 				<Header />
 			</header>
+
 			<Container>
+				{/* <MainWrapper /> */}
 				<AboutWrapper />
 
 				<CarouselWrapper />

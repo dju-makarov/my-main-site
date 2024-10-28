@@ -17,5 +17,25 @@
 		"usedTechnologies": ["react", "redux"],
 		"sourceCode": null,
 		"site": null
+	},
+	{
+		"id": 3,
+		"title": "Video Slider",
+		"description": "Сайт со слайдером привязанный к видео.",
+		"photo": "video-in-html.webp",
+		"type": ["Frontend"],
+		"usedTechnologies": ["gsap", "swiper"],
+		"sourceCode": "https://github.com/dju-makarov/webdesign-master-beautiful-animation-background",
+		"site": "https://dju-makarov.github.io/webdesign-master-beautiful-animation-background/"
+	},
+	{
+		"id": 4,
+		"title": "Video Slider",
+		"description": "Сайт со слайдером привязанный к видео.",
+		"photo": "cookies-store-app.webp",
+		"type": ["Frontend"],
+		"usedTechnologies": ["gsap", "swiper"],
+		"sourceCode": "https://github.com/dju-makarov/cookies",
+		"site": "https://dju-makarov.github.io/cookies/"
 	}
 ]
